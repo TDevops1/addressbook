@@ -303,7 +303,7 @@
         </plugin>
 
         </plugins>
-		<finalName>addressbook_1.0.0</finalName>
+		<finalName>addressbook_1_${BUILD_NUMBER}</finalName>
     </build>
 	
 	  
