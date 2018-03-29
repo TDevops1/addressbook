@@ -7,7 +7,7 @@
     <version>1.1.1-SNAPSHOT</version><!--test-->
     <name>Vaadin Addressbook example</name>
     <build>
-    <finalName>${project.artifactId}</finalName>
+    <finalName>${project.artifactId}_${BUILD_NUMBER}</finalName>
 </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
