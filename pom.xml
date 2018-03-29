@@ -6,9 +6,6 @@
     <packaging>war</packaging>
     <version>1.1.1-SNAPSHOT</version><!--test-->
     <name>Vaadin Addressbook example</name>
-    <build>
-    <finalName>${project.artifactId}_${BUILD_NUMBER}</finalName>
-</build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -306,7 +303,7 @@
         </plugin>
 
         </plugins>
-		<finalName>addressbook</finalName>
+		<finalName>addressbook_1.0.0</finalName>
     </build>
 	
 	  
