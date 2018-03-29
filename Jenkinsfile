@@ -2,8 +2,18 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      steps {
-        sh 'set -e'
+      parallel {
+        stage('Build') {
+          steps {
+            sh 'set -e'
+          }
+        }
+        stage('BUILD') {
+          steps {
+            sh '''set-xe
+echo HOSTNAME'''
+          }
+        }
       }
     }
   }
